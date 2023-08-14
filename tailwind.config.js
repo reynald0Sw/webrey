@@ -12,9 +12,9 @@ export default {
 
       colors: {
         "primary-color": "#2563eb",
-        // "light-green": "rgba(16, 255, 139, 0.5)",
-        // "dark-green": "#8EFF8B",
-        // "light-gray": "#AEAEAE",
+        "light-green": "rgba(16, 255, 139, 0.5)",
+        "dark-green": "#8EFF8B",
+        "light-gray": "#AEAEAE",
       },
     },
   },

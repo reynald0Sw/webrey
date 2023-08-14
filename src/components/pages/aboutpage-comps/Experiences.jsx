@@ -1,4 +1,4 @@
-import React from "react";
+// import React, { useState } from "react";
 
 const Experiences = () => {
   return (
@@ -19,20 +19,11 @@ const Experiences = () => {
         {/* totes */}
         <article className="bg-gray-d relative border-[1px] border-primary-color/30 rounded-lg overflow-hidden">
           <div>
-            <video
-              autoPlay
-              muted
-              loop
-              // controls
-              width="100%"
-              poster="/images/videosImages/reel-rey-poster.jpg"
-            >
-              <source
-                src="/images/videosImages/Systems Support Engineer.mp4"
-                type="video/mp4"
+            <img
+                src="/images/videosImages/totes.jpeg"
+                alt="burger day"
+                loading="lazy"
               />
-              Tu navegador no admite la reproducción de videos.
-            </video>
           </div>
 
           <section className="p-6">
@@ -57,20 +48,11 @@ const Experiences = () => {
         {/* CENTRO CELULAR */}
         <article className="bg-gray-d relative border-[1px] border-primary-color/30 rounded-lg overflow-hidden">
           <div>
-            <video
-              autoPlay
-              muted
-              loop
-              // controls
-              width="100%"
-              poster="/images/videosImages/reel-rey-poster.jpg"
-            >
-              <source
-                src="/images/videosImages/Cellphone repair.mp4"
-                type="video/mp4"
-              />
-              Tu navegador no admite la reproducción de videos.
-            </video>
+            <img
+                  src="/images/videosImages/centroCelular2.jpeg"
+                  alt="burger day"
+                  loading="lazy"
+                />
           </div>
 
           <section className="p-6">
@@ -92,20 +74,11 @@ const Experiences = () => {
         {/* SEITEL */}
         <article className="bg-gray-d relative border-[1px] border-primary-color/30 rounded-lg overflow-hidden">
           <div>
-            <video
-              autoPlay
-              muted
-              loop
-              // controls
-              width="100%"
-              poster="/images/videosImages/reel-rey-poster.jpg"
-            >
-              <source
-                src="/images/videosImages/redes.mp4"
-                type="video/mp4"
-              />
-              Tu navegador no admite la reproducción de videos.
-            </video>
+          <img
+              src="/images/videosImages/seitel2.jpeg"
+              alt="burger day"
+              loading="lazy"
+            />
           </div>
 
           <section className="p-6">

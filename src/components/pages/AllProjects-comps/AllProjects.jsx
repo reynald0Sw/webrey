@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import Shopping from "../../../../public/images/projectsImages/shopping.png";
-import DashboardProductos from "../../../../public/images/projectsImages/curso-profecional-d-next.verce.png";
+import Shopping from "/images/projectsImages/shopping.png";
+import DashboardProductos from "/images/projectsImages/curso-profecional-d-next.verce.png";
 import pokedex from "/images/projectsImages/pokedex.webp";
-import ReactTask from "../../../../public/images/projectsImages/ReactTareas.png";
-import reactCalculator from "../../../../public/images/projectsImages/react-calculator.png";
-import ClickCounter from "../../../../public/images/projectsImages/Click counter.png";
-import ReactTodos from "../../../../public/images/projectsImages/ReactTodos.png";
+import ReactTask from "/images/projectsImages/ReactTareas.png";
+import reactCalculator from "/images/projectsImages/react-calculator.png";
+import ClickCounter from "/images/projectsImages/Click counter.png";
+import ReactTodos from "/images/projectsImages/ReactTodos.png";
 import crud from "/images/projectsImages/crud.webp";
 import moviepedia from "/images/projectsImages/moviepedia.webp";
 import tictactoe from "/images/projectsImages/tictactoe.webp";

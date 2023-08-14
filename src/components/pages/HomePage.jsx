@@ -10,35 +10,35 @@ import Experiences from './aboutpage-comps/Experiences'
 
 const HomePage = () => {
     const certificates = [
-        {image: '/public/images/certificates/1.png'},
-        {image: '/public/images/certificates/diploma-frontend-developer.png'},       
-        {image: '/public/images/certificates/diploma-frontend-developer-practico.png'},       
-        {image: '/public/images/certificates/diploma-backend.png'},       
-        {image: '/public/images/certificates/diploma-bd.png'},       
-        {image: '/public/images/certificates/diploma-git-github.png'},       
-        {image: '/public/images/certificates/diploma-asincronismo-js.png'},
-        {image: '/public/images/certificates/diploma-ecmascript-6.png'},
-        {image: '/public/images/certificates/diploma-passport.png'},
-        {image: '/public/images/certificates/diploma-backend-nodejs.png'},
-        {image: '/public/images/certificates/diploma-profesional-nextjs.png'},       
-        {image: '/public/images/certificates/diploma-react.png'},       
-        {image: '/public/images/certificates/diploma-react-vite-tailwindcss.png'},       
-        {image: '/public/images/certificates/diploma-react-estado.png'},       
-        {image: '/public/images/certificates/diploma-react-patrones-render.png'},       
-        {image: '/public/images/certificates/diploma-laboratorio-react.png'},       
-        {image: '/public/images/certificates/diploma-javascript-practico.png'},       
-        {image: '/public/images/certificates/diploma-configuracion-windows.png'},
-        {image: '/public/images/certificates/diploma-web-chatgpt.png'},       
-        {image: '/public/images/certificates/diploma-computacion-basica.png'},
-        {image: '/public/images/certificates/diploma-cursobasicode js.png'},
-        {image: '/public/images/certificates/diploma-fundamentos-node.png'},       
-        {image: '/public/images/certificates/diploma-terminal.png'},       
-        {image: '/public/images/certificates/diploma-smart-contracts.png'},       
-        {image: '/public/images/certificates/diploma-npm.png'},       
-        {image: '/public/images/certificates/diploma-pensamiento-logico.png'},       
-        {image: '/public/images/certificates/diploma-programacion-basica.png'},       
-        {image: '/public/images/certificates/hacking.png'},       
-        {image: '/public/images/certificates/pyton.png'},       
+        {image: '/images/certificates1.png'},
+        {image: '/images/certificates/diploma-frontend-developer.png'},       
+        {image: '/images/certificates/diploma-frontend-developer-practico.png'},       
+        {image: '/images/certificates/diploma-backend.png'},       
+        {image: '/images/certificates/diploma-bd.png'},       
+        {image: '/images/certificates/diploma-git-github.png'},       
+        {image: '/images/certificates/diploma-asincronismo-js.png'},
+        {image: '/images/certificates/diploma-ecmascript-6.png'},
+        {image: '/images/certificates/diploma-passport.png'},
+        {image: '/images/certificates/diploma-backend-nodejs.png'},
+        {image: '/images/certificates/diploma-profesional-nextjs.png'},       
+        {image: '/images/certificates/diploma-react.png'},       
+        {image: '/images/certificates/diploma-react-vite-tailwindcss.png'},       
+        {image: '/images/certificates/diploma-react-estado.png'},       
+        {image: '/images/certificates/diploma-react-patrones-render.png'},       
+        {image: '/images/certificates/diploma-laboratorio-react.png'},       
+        {image: '/images/certificates/diploma-javascript-practico.png'},       
+        {image: '/images/certificates/diploma-configuracion-windows.png'},
+        {image: '/images/certificates/diploma-web-chatgpt.png'},       
+        {image: '/images/certificates/diploma-computacion-basica.png'},
+        {image: '/images/certificates/diploma-cursobasicode js.png'},
+        {image: '/images/certificates/diploma-fundamentos-node.png'},       
+        {image: '/images/certificates/diploma-terminal.png'},       
+        {image: '/images/certificates/diploma-smart-contracts.png'},       
+        {image: '/images/certificates/diploma-npm.png'},       
+        {image: '/images/certificates/diploma-pensamiento-logico.png'},       
+        {image: '/images/certificates/diploma-programacion-basica.png'},       
+        {image: '/images/certificates/hacking.png'},       
+        {image: '/images/certificates/pyton.png'},       
     ];
 
 
@@ -51,7 +51,7 @@ const HomePage = () => {
             <Navbar />
             <Home />
             <About />
-            <Experiences/> 
+            {/* <Experiences/>  */}
             <MyProjects />
             <Techs />
             <CertificateSlider certificates={certificates} />

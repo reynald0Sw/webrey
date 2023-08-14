@@ -47,7 +47,7 @@ const Home = () => {
             className="mb-2 rounded-2xl mx-auto w-2/3 max-w-lg md:max-w-sm object-cover md:w-[70rem] shadow-2xl shadow-primary-color/20"
             style={{ filter: "drop-shadow(0px -4px 4px rgba(0, 255, 0, 0.5))" }}
           >
-            <source src="/public/images/videosImages/perfil.mp4" type="video/mp4" />
+            <source src="/images/videosImages/perfil.mp4" type="video/mp4" />
             {/* Agrega más fuentes de video si es necesario para diferentes formatos */}
           </video>
           {/* <img src="https://imgur.com/mebuqDk.png" alt="My profile" className='rounded-2xl mx-auto w-2/3 max-w-lg md:max-w-sm object-cover md:w-[70rem] shadow-2xl shadow-primary-color/20' style={{ filter: 'drop-shadow(0px -4px 4px rgba(0, 255, 0, 0.5))' }} /> */}

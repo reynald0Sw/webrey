@@ -28,7 +28,7 @@ const Experiences = () => {
               poster="/images/videosImages/reel-rey-poster.jpg"
             >
               <source
-                src="/public/images/videosImages/Systems Support Engineer.mp4"
+                src="/images/videosImages/Systems Support Engineer.mp4"
                 type="video/mp4"
               />
               Tu navegador no admite la reproducción de videos.
@@ -66,7 +66,7 @@ const Experiences = () => {
               poster="/images/videosImages/reel-rey-poster.jpg"
             >
               <source
-                src="/public/images/videosImages/Cellphone repair.mp4"
+                src="/images/videosImages/Cellphone repair.mp4"
                 type="video/mp4"
               />
               Tu navegador no admite la reproducción de videos.
@@ -101,7 +101,7 @@ const Experiences = () => {
               poster="/images/videosImages/reel-rey-poster.jpg"
             >
               <source
-                src="/public/images/videosImages/redes.mp4"
+                src="/images/videosImages/redes.mp4"
                 type="video/mp4"
               />
               Tu navegador no admite la reproducción de videos.

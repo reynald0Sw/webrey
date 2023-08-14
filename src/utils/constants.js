@@ -12,7 +12,7 @@ const projects = [
     id: 2,
     title: "Dashboard/Productos",
     description:
-      "Handling tokens, API, file addition, modification, and deletion through the API.",
+      "Handling tokens, API, file addition, modification, and deletion through the API. || Email: admin@mail.com Password:admin123 ||",
     technologies: "Next.js, Javascript, HTML5, CSS, Vite",
     src: "/images/projectsImages/curso-profecional-d-next.verce.png",
     demo: "https://curso-profecional-d-next.vercel.app/dashboard",

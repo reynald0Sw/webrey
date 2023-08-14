@@ -6,11 +6,11 @@ import MyProjects from "./homepage-comps/MyProjects"
 import Techs from "./homepage-comps/Techs"
 import Contact from "./homepage-comps/Contact"
 import CertificateSlider from './homepage-comps/CertificateSlider'
-import Experiences from './aboutpage-comps/Experiences'
+// import Experiences from './aboutpage-comps/Experiences'
 
 const HomePage = () => {
     const certificates = [
-        {image: '/images/certificates1.png'},
+        {image: '/images/certificates/1.png'},
         {image: '/images/certificates/diploma-frontend-developer.png'},       
         {image: '/images/certificates/diploma-frontend-developer-practico.png'},       
         {image: '/images/certificates/diploma-backend.png'},       

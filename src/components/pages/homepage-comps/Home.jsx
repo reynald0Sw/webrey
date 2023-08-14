@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import MobileSocialLinks from "./MobileSocialLinks";
 
 const Home = () => {
+  const [videoLoaded, setVideoLoaded] = useState(false);
+
+  const handleVideoLoaded = () => {
+    setVideoLoaded(true);
+  };
+
   return (
     <section name="Home" className="relative w-full md:h-screen h-unset">
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 py-16 md:py-0 md:flex-row md:gap-8">
@@ -39,18 +45,24 @@ const Home = () => {
         </div>
 
         <div className="flex order-1 md:order-2 mt-8 md:mt-0">
-        <video
-            autoPlay
-            loop
-            muted
-            playsInline // Agrega este atributo para ciertos dispositivos móviles
-            className="mb-2 rounded-2xl mx-auto w-2/3 max-w-lg md:max-w-sm object-cover md:w-[70rem] shadow-2xl shadow-primary-color/20"
-            style={{ filter: "drop-shadow(0px -4px 4px rgba(0, 255, 0, 0.5))" }}
-          >
-            <source src="/images/videosImages/perfil.mp4" type="video/mp4" />
-            {/* Agrega más fuentes de video si es necesario para diferentes formatos */}
-          </video>
-          {/* <img src="https://imgur.com/mebuqDk.png" alt="My profile" className='rounded-2xl mx-auto w-2/3 max-w-lg md:max-w-sm object-cover md:w-[70rem] shadow-2xl shadow-primary-color/20' style={{ filter: 'drop-shadow(0px -4px 4px rgba(0, 255, 0, 0.5))' }} /> */}
+          {videoLoaded ? (
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="mb-2 rounded-2xl mx-auto w-2/3 max-w-lg md:max-w-sm object-cover md:w-[70rem] shadow-2xl shadow-primary-color/20"
+              style={{ filter: "drop-shadow(0px -4px 4px rgba(0, 255, 0, 0.5))" }}
+            >
+              <source src="/images/videosImages/perfil.mp4" type="video/mp4" />
+              {/* Agrega más fuentes de video si es necesario para diferentes formatos */}
+            </video>
+          ) : (
+            <div
+              className="aspect-w-16 aspect-h-9 bg-black mb-2 rounded-2xl mx-auto w-2/3 max-w-lg md:max-w-sm shadow-2xl shadow-primary-color/20"
+              style={{ filter: "drop-shadow(0px -4px 4px rgba(0, 255, 0, 0.5))" }}
+            ></div>
+          )}
         </div>
       </div>
     </section>
@@ -58,4 +70,3 @@ const Home = () => {
 };
 
 export default Home;
-

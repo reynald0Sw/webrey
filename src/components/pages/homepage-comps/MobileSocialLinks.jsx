@@ -40,7 +40,7 @@ const MobileSocialLinks = () => {
           <BsFillPersonLinesFill size={20} /> Resume
         </>
       ),
-      href: "/public/Ingeniero de Software Profesional Currículum .pdf",
+      href: "/Ingeniero de Software Profesional Currículum .pdf",
       style: "rounded-br-md",
       download: true,
     },

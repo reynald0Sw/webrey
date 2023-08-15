@@ -50,9 +50,7 @@ const HomePage = () => {
         <>
             <Navbar />
             <Home />
-            <About style={({ isActive }) => ({
-              color: isActive? 'red':'blue'
-            })} to='/'/>
+            <About />
             {/* <Experiences/>  */}
             <MyProjects />
             <Techs />

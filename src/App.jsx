@@ -22,6 +22,8 @@ function App() {
         <Route path="/projects" element={<AllProjectsPage />}/>
 
         <Route path="/technologies" element={<AllTechsPage />}/>
+        <Route path='*' element={<p>Not Fount</p>} />
+
 
       </Routes>
 

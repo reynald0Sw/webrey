@@ -22,6 +22,7 @@ const HomePage = () => {
         {image: '/images/certificates/diploma-backend-nodejs.png'},
         {image: '/images/certificates/diploma-profesional-nextjs.png'},       
         {image: '/images/certificates/diploma-react.png'},       
+        {image: '/images/certificates/diploma-react-router.png'},       
         {image: '/images/certificates/diploma-react-vite-tailwindcss.png'},       
         {image: '/images/certificates/diploma-react-estado.png'},       
         {image: '/images/certificates/diploma-react-patrones-render.png'},       

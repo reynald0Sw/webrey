@@ -40,6 +40,7 @@ const HomePage = () => {
         {image: '/images/certificates/diploma-programacion-basica.png'},       
         {image: '/images/certificates/hacking.png'},       
         {image: '/images/certificates/pyton.png'},       
+        {image: '/images/certificates/diploma-react-state-machines.png'},       
     ];
 
 
